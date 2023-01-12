@@ -8,11 +8,11 @@ public class CalcOvernightGaps
 
             AtOpenGap = cur.Open - prev.Close,
 
-            AtCloseGap = cur.Close - cur.Close,
+            AtCloseGap = cur.Close - cur.Open,
 
             DayHiGap = cur.High - cur.Open,
 
-            DayCloseGap = cur.Open - cur.Open,
+            DayCloseGap = cur.Open - cur.Close,
 
             DayRange = cur.High - cur.Low
          };

@@ -15,9 +15,9 @@ public class CalcOvernightGapsTests
             DayBeforeStamp = DateTime.Parse("01/26/2023"),
             DateStamp = DateTime.Parse("01/27/2023"),
             AtOpenGap = 0.75M,
-            AtCloseGap = 0.00M,
+            AtCloseGap = -4.75M,
             DayHiGap = 1.5M,
-            DayCloseGap = 0.0M,
+            DayCloseGap = 4.75M,
             DayRange = 9.0M
         };
 
