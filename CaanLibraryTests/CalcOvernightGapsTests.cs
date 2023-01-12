@@ -23,4 +23,10 @@ public class CalcOvernightGapsTests
 
         Assert.AreEqual(target, result);
     }
+
+    [TestMethod]
+    public void TestGetDayGaps()
+    {
+        
+    }
 }

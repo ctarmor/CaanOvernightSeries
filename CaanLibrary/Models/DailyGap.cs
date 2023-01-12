@@ -1,3 +1,6 @@
+/// <summary>
+/// Calculate gap from the current and previous day
+/// </summary>
 public record struct DailyGap {
     public DateTime DayBeforeStamp { get; set; }
     public DateTime DateStamp { get; set; }
