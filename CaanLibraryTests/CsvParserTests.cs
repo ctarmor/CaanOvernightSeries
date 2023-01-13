@@ -1,6 +1,3 @@
-using System.Text.Json;
-using CaanLibrary;
-
 namespace CaanLibraryTests;
 
 [TestClass]
